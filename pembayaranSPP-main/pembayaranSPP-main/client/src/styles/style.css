@@ -1,0 +1,50 @@
+.login-grid {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+.login-form {
+    margin: 20px
+}
+
+.login-select-priv{
+    text-align: left;
+}
+
+.btn-padding{
+    margin: 3px;
+}
+
+.crudTable{
+    overflow: auto
+}
+
+.hidden{
+    display:none
+}
+
+.overlay-form{
+    position: fixed;
+    display: box;
+    width:50%;
+    height:60%;
+    left:25%;
+    top:20%;
+    border: solid 3px grey;
+    border-radius: 3px;
+    background-color: white;
+    text-align:center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.form-overlay-inside{
+    color: black;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
